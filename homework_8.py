@@ -116,3 +116,4 @@ class Goose(Birds):
     @staticmethod
     def hear():
         return 'Ga-ga-ga'
+

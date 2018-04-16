@@ -6,10 +6,11 @@ Result_folder_path = data_path + 'Result'
 Source_folder_path = data_path + 'Source'
 Converter_path = data_path + 'convert.exe'
 
+
 def make_folder_for_output():
     if not os.path.exists(Result_folder_path):
         os.mkdir(Result_folder_path)
-make_folder_for_output()
+
 
 def resize_fotos():
     fotos_list = os.listdir(path=Source_folder_path)

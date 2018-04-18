@@ -52,7 +52,6 @@ class Counter(YaBase):
 
 
 Base_1 = YaBase(TOKEN)
-
 counter_1 = Base_1.get_counters()[0]
 Counter_1 = Counter(counter_1, Base_1.token)
 

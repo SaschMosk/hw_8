@@ -1,10 +1,10 @@
 import subprocess
 import os
 
-data_path = f'{os.getcwd()}\PY1_Lesson_2.5\homework\\'
-Result_folder_path = data_path + 'Result'
-Source_folder_path = data_path + 'Source'
-Converter_path = data_path + 'convert.exe'
+data_path = f'{os.getcwd()}\PY1_Lesson_2.5\homework'
+Result_folder_path = data_path + '\Result'
+Source_folder_path = data_path + '\Source'
+Converter_path = data_path + '\convert.exe'
 
 
 def make_folder_for_output():
@@ -22,4 +22,5 @@ def resize_fotos():
         subprocess.run(arguments)
 
 
+make_folder_for_output()
 resize_fotos()

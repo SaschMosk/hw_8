@@ -1,5 +1,6 @@
 import chardet
 
+
 def calc_top_10_words_by_len(file_name):
     with open('{}.txt'.format(file_name), 'rb') as f:
         text = f.read()
